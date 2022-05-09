@@ -157,6 +157,10 @@ opacity: 0;
   cursor: pointer;
 }
 
+.header__item--contents .contents__menu > ul > li ul li:hover {
+  color: #669900;
+}
+
 .header__item--contents .contents__texture {
   padding: 26px 0;
   font-size: 12px;

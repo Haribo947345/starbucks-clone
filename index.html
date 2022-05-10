@@ -50,6 +50,7 @@
 
     <!-- 연결 -->
     <link rel="stylesheet" href="./css/main.css" />
+
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
       integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
@@ -62,7 +63,9 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+
     <script defer src="./js/header.js"></script>
+    <script defer src="./js/section.js"></script>
   </head>
 
   <body>
@@ -412,7 +415,7 @@
     </header>
 
     <section class="visual">
-      <div class="inner">
+      <div class="inner fade-in">
         <div class="title">
           <img
             src="./images/visual_title.png"
@@ -420,27 +423,33 @@
           />
           <a href="#" class="btn btn__brown">자세히 보기</a>
         </div>
-        <img
-          src="./images/visual_cup1.png"
-          alt="new oatemela latte"
-          class="cup1 img"
-        />
-        <img
-          src="./images/visual_cup1_text.png"
-          alt="오트밀라떼"
-          class="cup1 text"
-        />
-        <img
-          src="./images/visual_cup2.png"
-          alt="new starbucks caramel"
-          class="cup2 img"
-        />
-        <img
-          src="./images/visual_cup2_text.png"
-          alt="카라멜크림"
-          class="cup2 text"
-        />
-        <img src="./images/visual_spoon.png" alt="spoon" class="spoon" />
+        <div class="fade-in">
+          <img
+            src="./images/visual_cup1.png"
+            alt="new oatemela latte"
+            class="cup1 img"
+          />
+          <img
+            src="./images/visual_cup1_text.png"
+            alt="오트밀라떼"
+            class="cup1 text"
+          />
+        </div>
+        <div class="fade-in">
+          <img
+            src="./images/visual_cup2.png"
+            alt="new starbucks caramel"
+            class="cup2 img"
+          />
+          <img
+            src="./images/visual_cup2_text.png"
+            alt="카라멜크림"
+            class="cup2 text"
+          />
+        </div>
+        <div class="fade-in">
+          <img src="./images/visual_spoon.png" alt="spoon" class="spoon" />
+        </div>
       </div>
     </section>
   </body>

@@ -2,6 +2,7 @@
 @import url("icon.css");
 @import url("header.css");
 @import url("common.css");
-@import url("section.css");
 @import url("btn.css");
-@import url("notice.css");
+@import url("section-notice.css");
+@import url("section-visual.css");
+

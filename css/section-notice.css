@@ -1,7 +1,3 @@
-.notice {
-
-}
-
 .notice .notice-line {
   position: relative;
 }
@@ -27,6 +23,7 @@
 .notice .notice-line .inner {
   height: 62px;
   display: flex;
+  z-index: 1;
 }
 
 .notice .notice-line .inner__left {
@@ -96,4 +93,44 @@
 
 .notice .notice-line .inner__right .toggle-promotion .material-symbols-outlined {
   font-size: 30px;
+}
+
+
+.notice .promotion {
+  height: 693px;
+  background-color: #f6f5ef;
+  position: relative;
+}
+
+.notice .promotion .swiper-container {
+  width: calc(819px * 3 + 20px);
+  height: 553px;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  margin-left: calc((819px * 3 + 20px) / -2);
+}
+
+.notice .promotion .swiper-slide {
+  opacity: 0.5;
+  transition: opacity 1s;
+  position: relative;
+}
+
+.notice .promotion .swiper-slide-active {
+  opacity: 1;
+}
+
+.notice .promotion .swiper-slide .btn {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.notice .promotion .swiper-pagination {
+  bottom: 40px;
+  left: 0;
+  right: 0;
 }

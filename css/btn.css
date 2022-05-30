@@ -47,7 +47,7 @@
 }
 
 .btn.btn__white {
-  background-color: #fff;
+  border: 2px solid #fff;
   color: #fff;
 }
 

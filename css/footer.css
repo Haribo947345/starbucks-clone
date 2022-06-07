@@ -81,6 +81,10 @@ footer .copyright {
   margin-top: 12px;
 }
 
+footer .copyright span{
+  margin-right: 3px;
+}
+
 footer .logo {
   margin: 30px auto 0;
 }
